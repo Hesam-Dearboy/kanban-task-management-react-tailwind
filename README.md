@@ -49,7 +49,7 @@ Bonus:
 
 ### Links
 
-- Live Site URL: [link]()
+- Live Site URL: [link](https://kanban-task-management-react-tailwind.vercel.app/)
 
 ### Built with
 
