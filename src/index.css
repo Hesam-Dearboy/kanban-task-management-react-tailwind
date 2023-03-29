@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer components {
+  .button {
+    @apply bg-[#635fc7] py-2 px-4 rounded-full text-white text-lg font-semibold hover:opacity-80 duration-200
+  }
+}
+
+.dropdown{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.filter-white {
+  filter: invert(100%) sepia(96%) saturate(16%) hue-rotate(350deg)
+    brightness(104%) contrast(100%);
+}
+
+.select-status{
+  background-image: url("./assets/icon-chevron-down.svg");
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 16px top 50%;
 }
