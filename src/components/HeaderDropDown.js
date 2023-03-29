@@ -24,7 +24,7 @@ function HeaderDropDown({ setOpenDropdown, setIsBoardModalOpen }) {
 
   return (
     <div
-      className=" py-10 px-14 absolute  left-0 right-0 bottom-[-100vh] top-16 dropdown "
+      className=" py-10 px-6 absolute  left-0 right-0 bottom-[-100vh] top-16 dropdown "
       onClick={(e) => {
         if (e.target !== e.currentTarget) {
           return;
