@@ -104,8 +104,8 @@ function AddEditTaskModal({
     <div
       className={
         device === "mobile"
-          ? "  py-6 px-6  absolute overflow-y-scroll  left-0 flex  right-0 bottom-[-100vh] top-0 dropdown "
-          : "  py-6 px-6 absolute overflow-y-scroll  left-0 flex  right-0 bottom-0 top-0 dropdown "
+          ? "  py-6 px-6 pb-40  absolute overflow-y-scroll  left-0 flex  right-0 bottom-[-100vh] top-0 dropdown "
+          : "  py-6 px-6 pb-40  absolute overflow-y-scroll  left-0 flex  right-0 bottom-0 top-0 dropdown "
       }
       onClick={(e) => {
         if (e.target !== e.currentTarget) {
