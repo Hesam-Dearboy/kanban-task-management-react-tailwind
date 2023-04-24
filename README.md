@@ -1,6 +1,8 @@
 # Frontend Mentor - Kanban task management web app solution
 
-This is a solution to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+- [this project YouTube video Tutorial](https://www.youtube.com/watch?v=3RWMktZNsJQ&t=1707s)
+
+This is a solution to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -40,12 +42,13 @@ Expected Behaviour:
   - Adding a new task adds it to the bottom of the relevant column.
   - Updating a task's status will move the task to the relevant column.
 
-Bonus: 
-  - The tasks can be dragged and dropped to a new column.
+Bonus:
+
+- The tasks can be dragged and dropped to a new column.
 
 ### Screenshot
 
-![Screenshot](./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png)
+![Screenshot](<./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png>)
 
 ### Links
 
@@ -53,12 +56,13 @@ Bonus:
 
 ### Built with
 
-- [TailwindCSS](https://tailwindcss.com/) - CSS Framework  
+- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
 - Drag and Drop API
 - [React](https://reactjs.org/) - JS library
 - [Redux](https://redux.js.org/) - State management tool
 
 ### Useful resources
+
 - [Drag and Drop quick tutorial](https://www.youtube.com/watch?v=u65Y-vqYNAk)
 
 ## Author

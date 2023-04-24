@@ -18,8 +18,8 @@ function Header({ setIsBoardModalOpen, isBoardModalOpen }) {
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
   const [isTaskModalOpen, setIsTaskModalOpen] = useState(false);
 
-  console.log(boardType);
   const dispatch = useDispatch();
+  
   const boards = useSelector((state) => state.boards);
   const board = boards.find((board) => board.isActive);
 
@@ -133,7 +133,7 @@ function Header({ setIsBoardModalOpen, isBoardModalOpen }) {
       )}
       {isDeleteModalOpen && (
         <DeleteModal
-          setBoardType={setBoardType}
+          setIsDeleteModalOpen={setIsDeleteModalOpen}
           type="board"
           title={board.name}
           onDeleteBtnClick={onDeleteBtnClick}

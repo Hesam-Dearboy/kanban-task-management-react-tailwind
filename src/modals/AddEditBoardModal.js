@@ -4,7 +4,7 @@ import boardsSlice from "../redux/boardsSlice";
 import { v4 as uuidv4 } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
 
-function AddEditBoardModal({ setIsBoardModalOpen, type ,setBoardType , device }) {
+function AddEditBoardModal({ setIsBoardModalOpen, type , }) {
   const dispatch = useDispatch();
   const [isFirstLoad, setIsFirstLoad] = useState(true);
   const [name, setName] = useState("");
