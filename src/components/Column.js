@@ -37,7 +37,7 @@ function Column({ colIndex }) {
 
     if (colIndex !== prevColIndex) {
       dispatch(
-        boardsSlice.actions.dragTask({ colIndex, prevColIndex, taskIndex })
+        boardsSlice.actions.setTaskStatus({ taskIndex, colIndex: prevColIndex, newColIndex: colIndex, status: col.name })
       );
     }
   };
